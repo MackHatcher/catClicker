@@ -1,11 +1,13 @@
 body {
     text-align: center;
+    background-image: url("https://texturex.com/wp-content/uploads/2018/03/bamboo-texture-wood-floor-natural-wood-pattern-texture-4.jpg")
 }
 #kitty {
     -webkit-box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
 -moz-box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
 box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
-width: 700px;
+background-color: white;
+width: 650px;
 padding-left: 5px;
 padding-bottom: 25px;
 }
@@ -13,16 +15,29 @@ padding-bottom: 25px;
     -webkit-box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
     -moz-box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
     box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
-    width: 700px;
+    background-color: white;
+    width: 650px;
     padding-bottom: 25px;
     padding-left: 5px;
     padding-top: 25px;
 }
 
+#cat1 {
+    padding-top: 30px;
+    height: 400px;
+    width: 90%;
+}
+
+#cat2 {
+    padding-top: 10px;
+    height: 400px;
+    width: 90%;
+}
+
 .catCounter {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font: 16px arial black;
-    margin-left: -30px;
+    margin-left: 30px;
     
 };
 
@@ -33,5 +48,5 @@ padding-bottom: 25px;
 };
 
 #catName {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
