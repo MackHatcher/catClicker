@@ -7,10 +7,31 @@ body {
 box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
 width: 700px;
 padding-left: 5px;
-padding-bottom: 28px;
+padding-bottom: 25px;
+}
+#kitty2 {
+    -webkit-box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
+    -moz-box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
+    box-shadow: 16px 19px 5px -9px rgba(0,0,0,0.42);
+    width: 700px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-top: 25px;
 }
 
-#catCounter {
+.catCounter {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font: 16px arial black;
-    margin-left: -900px;
+    margin-left: -30px;
+    
+};
+
+#catCounter2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 16px black;
+    margin-left: -30px;
+};
+
+#catName {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
